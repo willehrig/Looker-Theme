@@ -65,17 +65,10 @@ table.reportTable td {
   
 }
 
-/* Add a black bottom border to all table cells */
-.reportTable td,
-.reportTable th {
-  border-bottom: 1px solid \#000000; /* Black bottom border */
+.reportTable tr th:first-child,
+.reportTable tr td {
+  border-bottom: 1px solid \#000000; /* Add a black right border to the first cell in each row */
 }
-
-/* Override the bottom border color for measure cells if they have a specific class */
-.measureCell {
-  border-bottom: 1px solid \#CCCCCC; /* Grey bottom border */
-}
-
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
