@@ -62,6 +62,7 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
+  border-bottom: 1px solid #000000;
 }
 
 .headerCell {
