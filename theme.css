@@ -7,7 +7,6 @@
   src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2')
 }
 
-
 #tooltip {
     position: absolute;
     width: auto;
@@ -46,107 +45,43 @@
 }
 
 .reportTable {
-  font-family: Open Sans,Helvetica,Arial,Noto Sans TC, Noto Sans SC,sans-serif;
-  color: #696969;
+  font-family: Open Sans,Helvetica,Arial,Noto Sans SC,Noto Sans TC,sans-serif;
+  border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
-  table-layout: fixed;
 }
 
-th.headerCell {
-  background-color: #ccd8e4;
+table.reportTable th {
+  border: 1px solid #CCCCCC; 
+  border-bottom: 1px solid #000000 !important;
   padding: 5px;
-  border-bottom: 1px solid #BDC3C7;
 }
 
-.headerCell.dimension {
-  background-color: #e4ecf3;
-  border-right: 1px solid #BDC3C7; 
-  border-bottom: 1px solid #BDC3C7; 
-}
-
-.headerCell.pivot {
-  background-color: #ccd8e4;
-  border-right: 1px solid #BDC3C7; 
-}
-
-.headerCell.measure {
-  background-color: #e4d0bd;
-  border-left: 1px solid #BDC3C7; 
-}
-
-.headerCell.measure.calculation {
-  background-color: #c9dfc5;
-  border-left: 1px solid #BDC3C7;
-}
-
-.headerCell.transposed.dimension {
-  background-color: #e4ecf3;
-}
-
-.headerCell.transposed.dimension.merged {
-  background-color: #e4ecf3 !important;
-}
-
-/* .headerCell.dimension.headerRow {
-  background-color: #ccd8e4;
-  border-right: 1px solid #BDC3C7;
-}
-
-.headerCell.pivot.headerRow {
-  background-color: #ccd8e4;
-  border-right: 1px solid #BDC3C7;
-}
-
-.headerCell.measure.headerRow {
-  background-color: #ccd8e4;
-  border-left: 1px solid #BDC3C7;
-} */
-
-.rowCell {
+table.reportTable td {
   vertical-align: super;
-  padding-left: 5px;
-  border-bottom: 1px solid #BDC3C7; 
+  padding: 5px;
+  border: 1px solid #CCCCCC; 
+  border-collapse: collapse;
 }
 
-.rowCell.merged {
-  background-color: #ffffff !important;
+.headerCell {
+  border-bottom: 1px solid #000000 !important;
+  font-weight: bold;
+  padding: 5px;
 }
 
 .indexCell.transposed {
   font-weight: bold;
 }
 
-.indexCell.transposed.pivot {
-  background-color: #ccd8e4;
+.indexCell.transposed.merged {
+  background-color: #ffffff !important;
 }
 
-.indexCell.transposed.dimension {
-  background-color: #e4ecf3;
-}
-
-.indexCell.transposed.measure {
-  background-color: #e4d0bd;
-}
-
-.indexCell.transposed.calculation {
-  background-color: #c9dfc5;
-}
-
-.indexCell.transposed.pivot.merged {
-  background-color: #ccd8e4 !important;
-}
-
-.indexCell.transposed.dimension.merged {
-  background-color: #e4ecf3 !important;
-}
-
-.indexCell.transposed.measure.merged {
-  background-color: #e4d0bd !important;
-}
-
-.indexCell.transposed.calculation.merged {
-  background-color: #c9dfc5 !important;
+.rowCell {
+  vertical-align: super;
+  padding-left: 5px;
+  border-bottom: 1px solid #000000;
 }
 
 .nonNumeric {
@@ -176,7 +111,7 @@ th.headerCell {
 }
 
 .total {
-  border-top: 2px solid #696969 !important;
+  border-top: 2px solid #000000 !important;
   font-weight: bold !important;
 }
 
