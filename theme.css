@@ -67,8 +67,7 @@ table.reportTable td {
 
 
 .reportTable tr th:first-child,
-.reportTable tr td:first-child,
-.reportTable tr td {
+.reportTable tr td:last-child {
   border-bottom: 1px solid #000000; /* Add a black right border to the first cell in each row */
 
 }
