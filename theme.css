@@ -72,18 +72,17 @@ table.reportTable td {
 
 .indexCell.transposed {
   font-weight: bold;
-  border-bottom: 1px solid #000000;
+  
 }
 
 .indexCell.transposed.merged {
   background-color: #ffffff !important;
-  border-bottom: 1px solid #000000;
 }
 
 .rowCell {
   vertical-align: super;
   padding-left: 5px;
-  border-bottom: 1px solid #000000;
+  border: 1px solid #000000;
 }
 
 .nonNumeric {
