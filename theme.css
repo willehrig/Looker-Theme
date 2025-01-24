@@ -49,6 +49,7 @@
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
+  border-bottom: 1px solid #000000;
 }
 
 table.reportTable th {
