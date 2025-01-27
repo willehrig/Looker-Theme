@@ -78,7 +78,7 @@ table.reportTable td {
   position: sticky;
   left: 0;
   background-color: white;
-  z-index: 1;
+  z-index: 2;
 
 }
 
@@ -87,7 +87,7 @@ table.reportTable td {
     position: sticky;
     left: 100px; /* Width of the first column */
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .reportTable tr:nth-child(2n) td,
