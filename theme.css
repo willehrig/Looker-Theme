@@ -61,7 +61,7 @@ table.reportTable td {
   vertical-align: super;
   padding: 5px;
   border: 1px solid #CCCCCC; 
-  border-collapse: collapse;
+  border-collapse: separate;
   width: 1000px;
   
 }
