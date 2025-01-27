@@ -78,7 +78,7 @@ table.reportTable td {
   position: sticky;
   left: 0;
   background-color: white;
-  z-index: 2;
+  z-index: 1;
 
 }
 
