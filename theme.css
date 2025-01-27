@@ -85,7 +85,7 @@ table.reportTable td {
 .reportTable tr:nth-child(2n) td,
 .reportTable tr:nth-child(2n) th {
   position: sticky;
-  left: 500px;
+  left: 0;
   background-color: white;
   z-index: 1;
   border-bottom: 1px solid #000000; /* Black bottom border */
