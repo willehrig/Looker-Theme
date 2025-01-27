@@ -82,12 +82,16 @@ table.reportTable td {
 
 }
 
+.reportTable th:nth-child(2),
+.reportTable td:nth-child(2) {
+    position: sticky;
+    left: 100px; /* Width of the first column */
+    background-color: white;
+    z-index: 1;
+}
+
 .reportTable tr:nth-child(2n) td,
 .reportTable tr:nth-child(2n) th {
-  position: sticky;
-  left: 0;
-  background-color: white;
-  z-index: 1;
   border-bottom: 1px solid #000000; /* Black bottom border */
 }
 
