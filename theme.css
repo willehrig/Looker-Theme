@@ -62,7 +62,9 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
-  width: 1000px;
+  white-space: nowrap;
+  overflow: visible;
+  max-width: 1000px;
   
 }
 
