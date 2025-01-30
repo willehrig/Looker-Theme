@@ -85,7 +85,7 @@ table.reportTable td {
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
     position: sticky;
-    left: 0; /* Width of the first column */
+    left: auto; /* Width of the first column */
     background-color: white;
     z-index: 2;
 }
