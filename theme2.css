@@ -101,7 +101,7 @@ table.reportTable td {
 /* Target the second column */
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
-  left: auto; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
+  left: 100px; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
 }
 
 .reportTable tr:nth-child(2n) td,
