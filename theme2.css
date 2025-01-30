@@ -80,7 +80,7 @@ table.reportTable td {
   left: 0;
   background-color: white;
   z-index: 2;
-  width: auto;
+  width: 100px;
 
 }
 
@@ -95,7 +95,7 @@ table.reportTable td {
 /* Target the first column */
 .reportTable th:first-child,
 .reportTable td:first-child {
-  left: 0; /* Stick to the left edge of the scrollable container */
+  left: 100px; /* Stick to the left edge of the scrollable container */
 }
 
 /* Target the second column */
