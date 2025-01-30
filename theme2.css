@@ -95,12 +95,14 @@ table.reportTable td {
 /* Target the first column */
 .reportTable th:first-child,
 .reportTable td:first-child {
+  position: sticky;
   left: 100px; /* Stick to the left edge of the scrollable container */
 }
 
 /* Target the second column */
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
+  position: sticky;
   left: 100px; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
 }
 
