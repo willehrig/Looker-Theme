@@ -78,7 +78,7 @@ table.reportTable td {
 .reportTable td {
   position: sticky;
   background-color: white; /* To ensure the sticky columns cover other cells when scrolling */
-  z-index: 2; /* To ensure the sticky columns stack above other cells */
+  z-index: 1; /* To ensure the sticky columns stack above other cells */
 }
 
 /* Target the first column */
