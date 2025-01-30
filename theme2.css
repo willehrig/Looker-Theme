@@ -80,6 +80,7 @@ table.reportTable td {
   left: 0;
   background-color: white;
   z-index: 2;
+  width: auto;
 
 }
 
