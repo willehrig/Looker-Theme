@@ -86,7 +86,7 @@ table.reportTable td {
 .reportTable td:first-child {
   position: sticky;
   z-index: 2;
-  left: 100px; /* Stick to the left edge of the scrollable container */
+  left: 0; /* Stick to the left edge of the scrollable container */
 }
 
 /* Target the second column */
