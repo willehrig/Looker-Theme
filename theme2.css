@@ -83,12 +83,24 @@ table.reportTable td {
 
 }
 
+/* Add general sticky column styles */
+.reportTable th,
+.reportTable td {
+  position: sticky;
+  background-color: white; /* To ensure the sticky columns cover other cells when scrolling */
+  z-index: 1; /* To ensure the sticky columns stack above other cells */
+}
+
+/* Target the first column */
+.reportTable th:first-child,
+.reportTable td:first-child {
+  left: 0; /* Stick to the left edge of the scrollable container */
+}
+
+/* Target the second column */
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
-    position: sticky;
-    left: 100px; /* Width of the first column */
-    background-color: white;
-    z-index: 2;
+  left: auto; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
 }
 
 .reportTable tr:nth-child(2n) td,
