@@ -85,7 +85,7 @@ table.reportTable td {
 .reportTable th:first-child,
 .reportTable td:first-child {
   position: sticky;
-  z-index: 1;
+  z-index: 2;
   left: 0; /* Stick to the left edge of the scrollable container */
 }
 
@@ -93,7 +93,6 @@ table.reportTable td {
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
   position: sticky;
-  z-index: 1;
   left: 100px; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
 }
 
