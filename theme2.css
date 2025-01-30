@@ -93,7 +93,7 @@ table.reportTable td {
 .reportTable th:nth-child(2),
 .reportTable td:nth-child(2) {
   position: sticky;
-  z-index: 3;
+  z-index: 2;
   left: auto; /* Replace [WIDTH_OF_FIRST_COLUMN] with the actual width of the first column */
 }
 
