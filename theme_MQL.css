@@ -123,3 +123,29 @@ table.reportTable td {
   font-family: Open Sans,Helvetica,Arial,sans-serif;
   margin: 4px;
 }
+
+.reportTable tr:first-child td {
+  background-color: #D3D3D3;
+  text-align: middle;
+}
+.reportTable tr:nth-child(6) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(11) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(16) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(21) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(26) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(31) td {
+  background-color: #D3D3D3; 
+}
+.reportTable tr:nth-child(36) td {
+  background-color: #D3D3D3; 
+}
