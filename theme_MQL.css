@@ -29,7 +29,7 @@
   font-family: Open Sans,Helvetica,Arial,sans-serif;
   border: 0px;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 .focus {
@@ -46,18 +46,15 @@
 
 .reportTable {
   font-family: Open Sans,Helvetica,Arial,Noto Sans SC,Noto Sans TC,sans-serif;
+  border: 1px solid #CCCCCC; 
   border-collapse: collapse;
   border-spacing: 3px;
-  border-bottom: 1px solid #000000;
 }
 
 table.reportTable th {
   border: 1px solid #CCCCCC; 
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
-  white-space: nowrap;
-  overflow: visible;
-  max-width: 1000px;
 }
 
 table.reportTable td {
@@ -65,10 +62,7 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
-  white-space: nowrap;
-  overflow: visible;
-  max-width: 1000px;
-
+}
 
 .headerCell {
   border-bottom: 1px solid #000000 !important;
@@ -76,30 +70,22 @@ table.reportTable td {
   padding: 5px;
 }
 
+.indexCell.transposed {
+  font-weight: bold;
+}
+
 .indexCell.transposed.merged {
   background-color: #ffffff !important;
 }
 
-.indexCell.transposed {
-  font-weight: bold;
-  
-}
-
 .rowCell {
   vertical-align: super;
-  padding-left: 100px;
-  border: 1px solid #000000;
+  padding-left: 5px;
 }
 
 .nonNumeric {
   text-align: left;
 }
-
-.reportTable.nonNumeric tr:first-child td{
-  text-align: middle;
-
-}
-  
 
 .numeric {
   text-align: right;
@@ -118,6 +104,7 @@ table.reportTable td {
 }
 
 .subtotal {
+  font-style: italic;
   font-weight: bold;
   background: #D3D3D3;
 }
@@ -135,35 +122,4 @@ table.reportTable td {
 .rectElem.animated {
   font-family: Open Sans,Helvetica,Arial,sans-serif;
   margin: 4px;
-}
-.reportTable tr:first-child td {
-  background-color: #D3D3D3;
-  text-align: middle;
-}
-
-.reportTable tr:nth-child(6) td {
-  background-color: #D3D3D3; 
-}
-
-.reportTable tr:nth-child(11) td {
-  background-color: #D3D3D3; 
-}
-
-.reportTable tr:nth-child(16) td {
-  background-color: #D3D3D3; 
-}
-
-.reportTable tr:nth-child(21) td {
-  background-color: #D3D3D3; 
-}
-.reportTable tr:nth-child(26) td {
-  background-color: #D3D3D3; 
-}
-
-.reportTable tr:nth-child(31) td {
-  background-color: #D3D3D3; 
-}
-
-.reportTable tr:nth-child(36) td {
-  background-color: #D3D3D3; 
 }
