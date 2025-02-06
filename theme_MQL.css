@@ -99,7 +99,7 @@ table.reportTable td {
 }
 
 .reportTable.nonNumeric tr:first-child td{
-  text-align: center;
+  text-align: middle;
 
 }
   
