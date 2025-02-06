@@ -75,13 +75,11 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(6n) td {
+.reportTable tr:nth-child(6) td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(11n) td {
-  background-color: #D3D3D3; 
-}
+
 
 
 .headerCell {
