@@ -71,8 +71,7 @@ table.reportTable td {
   
 }
 
-.reportTable tr:first-child td,
-.reportTable tr:first-child th {
+.reportTable tr:first-child td {
   background-color: #D3D3D3; 
 }
 
