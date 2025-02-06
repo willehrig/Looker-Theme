@@ -76,7 +76,10 @@ table.reportTable td {
   padding: 5px;
 }
 
-
+ .indexCell.transposed {
+  font-weight: bold;
+  
+}
 
 .indexCell.transposed.merged {
   background-color: #ffffff !important;
