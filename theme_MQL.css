@@ -136,7 +136,7 @@ table.reportTable td {
 }
 .reportTable tr:first-child td {
   background-color: #D3D3D3;
-  text-align: right;
+  text-align: middle;
 }
 
 .reportTable tr:nth-child(6) td {
