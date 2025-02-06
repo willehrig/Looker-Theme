@@ -98,6 +98,12 @@ table.reportTable td {
   text-align: left;
 }
 
+.nonNumeric.reportTable tr:first-child td{
+  text-align: center;
+
+}
+  
+
 .numeric {
   text-align: right;
 }
