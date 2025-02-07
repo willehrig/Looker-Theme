@@ -132,9 +132,13 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
+.reportTable tr:nth-child(9) td {
+  border-bottom: 1px solid #000000; 
+}
+
 .reportTable tr:nth-child(10) td {
   background-color: #D3D3D3;
-  border-top: 1px solid #000000; 
+  
 }
 
 .reportTable tr:nth-child(14) td {
