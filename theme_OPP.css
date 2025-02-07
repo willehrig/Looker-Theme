@@ -136,23 +136,13 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(13) td {
+
+.reportTable tr:nth-child(18) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(17) td {
-  border-bottom: 1px solid #000000; 
-}
 
-.reportTable tr:nth-child(21) td {
-  border-bottom: 1px solid #000000; 
-}
-
-.reportTable tr:nth-child(25) td {
-  border-bottom: 1px solid #000000; 
-}
-
-.reportTable tr:nth-child(29) td {
+.reportTable tr:nth-child(27) td {
   border-bottom: 1px solid #000000; 
 }
 
