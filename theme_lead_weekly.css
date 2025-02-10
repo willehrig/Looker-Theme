@@ -51,7 +51,7 @@
   border-spacing: 3px;
   white-space: nowrap;
   overflow: visible;
-  max-width: 1000px;
+  max-width: 10000px;
 }
 
 table.reportTable th {
