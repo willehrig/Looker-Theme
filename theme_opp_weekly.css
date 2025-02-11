@@ -132,21 +132,21 @@ table.reportTable td {
   background-color: #D3D3D3;
 }
 
-.reportTable tr:nth-child() td {
+.reportTable tr:nth-child(4) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(9) td {
-  border-bottom: 1px solid #000000; 
-}
-
-
-.reportTable tr:nth-child(18) td {
+.reportTable tr:nth-child(7) td {
   border-bottom: 1px solid #000000; 
 }
 
 
-.reportTable tr:nth-child(27) td {
+.reportTable tr:nth-child(11) td {
+  border-bottom: 1px solid #000000; 
+}
+
+
+.reportTable tr:nth-child(14) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -163,7 +163,7 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(23) td {
+.reportTable tr:nth-child(18) td {
   border-bottom: 1px solid #000000; 
 }
 
