@@ -155,7 +155,7 @@ table.reportTable td {
   
 }
 
-.reportTable tr:nth-child(14) td {
+.reportTable tr:nth-child(18) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -163,7 +163,7 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(18) td {
+.reportTable tr:nth-child(21) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -171,11 +171,11 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(32) td {
+.reportTable tr:nth-child(25) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(30) td {
+.reportTable tr:nth-child(28) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -183,11 +183,11 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(41) td {
+.reportTable tr:nth-child(32) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(45) td {
+.reportTable tr:nth-child(35) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -195,11 +195,11 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(50) td {
+.reportTable tr:nth-child(39) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(54) td {
+.reportTable tr:nth-child(42) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -207,11 +207,11 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(59) td {
+.reportTable tr:nth-child(46) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(63) td {
+.reportTable tr:nth-child(49) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -219,6 +219,6 @@ table.reportTable td {
   background-color: #D3D3D3; 
 }
 
-.reportTable tr:nth-child(68) td {
+.reportTable tr:nth-child(53) td {
   border-bottom: 1px solid #000000; 
 }
