@@ -126,27 +126,27 @@ table.reportTable td {
 }
 
 .reportTable tr:first-child td {
-  background-color: #D3D3D3;
+  background-color: #48bdff;
   text-align: middle;
 }
 .reportTable tr:nth-child(6) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(11) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(16) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(21) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(26) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(31) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
 .reportTable tr:nth-child(36) td {
-  background-color: #D3D3D3; 
+  background-color: #48bdff; 
 }
