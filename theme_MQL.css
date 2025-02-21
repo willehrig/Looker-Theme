@@ -53,7 +53,7 @@
 
 table.reportTable th {
   border: 1px solid #CCCCCC; 
-  border-bottom: 1px solid #FFFFFF !important;
+  border-bottom: 1px solid #D3D3D3 !important;
   padding: 5px;
   background: #053235;
   color: #FFFFFF;
