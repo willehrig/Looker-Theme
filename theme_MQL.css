@@ -105,7 +105,7 @@ table.reportTable td {
   padding-left: 15px !important;
 }
 
-.subtotal {
+.subtotal th {
   background: #053235;
   color: #FFFFFF
 }
