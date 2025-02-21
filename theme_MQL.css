@@ -106,15 +106,12 @@ table.reportTable td {
 }
 
 .subtotal {
-  font-style: italic;
-  font-weight: bold;
   background: #053235;
   color: #FFFFFF
 }
 
 .total {
   border-top: 2px solid #000000 !important;
-  font-weight: bold !important;
 }
 
 .total.transposed {
