@@ -215,6 +215,10 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(68) td {
+.reportTable tr:nth-child(67) td {
+  background-color: #48bdff; 
+}
+
+.reportTable tr:nth-child(70) td {
   border-bottom: 1px solid #000000; 
 }
