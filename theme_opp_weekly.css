@@ -209,18 +209,22 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(46) td {
+.reportTable tr:nth-child(45) td {
   border-bottom: 1px solid #000000; 
+}
+
+.reportTable tr:nth-child(46) td {
+  background-color: #48bdff; 
 }
 
 .reportTable tr:nth-child(49) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(50) td {
+.reportTable tr:nth-child(53) td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(53) td {
+.reportTable tr:nth-child(56) td {
   border-bottom: 1px solid #000000; 
 }
