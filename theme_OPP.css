@@ -203,11 +203,11 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(62) td {
+.reportTable tr:nth-child(59) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(66) td {
+.reportTable tr:nth-child(63) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -219,6 +219,6 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(71) td {
+.reportTable tr:nth-child(68) td {
   border-bottom: 1px solid #000000; 
 }
