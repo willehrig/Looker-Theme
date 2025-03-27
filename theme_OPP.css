@@ -211,11 +211,11 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(58) td {
+.reportTable tr:nth-child(64) td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(67) td {
+.reportTable tr:nth-child(73) td {
   background-color: #48bdff; 
 }
 
