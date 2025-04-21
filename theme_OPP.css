@@ -219,7 +219,7 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(85) td {
+.reportTable tr:nth-child(82) td {
   background-color: #48bdff; 
 }
 
@@ -236,6 +236,6 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(84) td {
+.reportTable tr:nth-child(81) td {
   border-bottom: 1px solid #000000; 
 }
