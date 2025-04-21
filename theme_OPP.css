@@ -57,9 +57,7 @@ table.reportTable th {
   padding: 5px;
   background: #053235;
   color: #FFFFFF;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+  
 }
 
 table.reportTable td {
