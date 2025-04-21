@@ -225,11 +225,19 @@ table.reportTable td {
   background-color: #48bdff; 
 }
 
+.reportTable tr:nth-child(64) td {
+  background-color: #48bdff; 
+}
+
 .reportTable tr:nth-child(53) td {
   border-bottom: 1px solid #000000; 
 }
 
 .reportTable tr:nth-child(56) td {
+  border-bottom: 1px solid #000000; 
+}
+
+.reportTable tr:nth-child(63) td {
   border-bottom: 1px solid #000000; 
 }
 
