@@ -69,18 +69,13 @@ table.reportTable td {
   vertical-align: super;
   padding: 5px;
   border: 1px solid #CCCCCC; 
-  border-collapse: collapse;
   background: #ffffff;
+  position: sticky;
+  left: 0;
+  z-index: 1;
  
 }
 
-table.reportTable td.sticky-col {
-  position: sticky;
-  left: 0;
-  background: white;
-  z-index: 1;
-  border-right: 1px solid #CCCCCC;
-}
 
 .headerCell {
   border-bottom: 1px solid #000000 !important;
