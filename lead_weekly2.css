@@ -70,17 +70,10 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
- 
-}
-
-/* Sticky top-left cell (header + first column) */
-.reportTable th.sticky-col {
   position: sticky;
-  top: 0;
   left: 0;
-  z-index: 4;
-  background-color: #053235;
-  color: white;
+  z-index: 2;
+ 
 }
 
 .headerCell {
@@ -100,6 +93,7 @@ table.reportTable td {
 .rowCell {
   vertical-align: super;
   padding-left: 5px;
+  z-index: 1;
 }
 
 .nonNumeric {
