@@ -70,11 +70,17 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
+ 
+}
+
+/* Sticky top-left cell (header + first column) */
+.reportTable th.sticky-col {
   position: sticky;
+  top: 0;
   left: 0;
-  background: white; /* Ensure it covers other cells when scrolled */
-  z-index: 2; /* Needed to layer properly */
-  border-right: 1px solid #CCCCCC;
+  z-index: 4;
+  background-color: #053235;
+  color: white;
 }
 
 .headerCell {
