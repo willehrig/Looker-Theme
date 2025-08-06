@@ -73,7 +73,7 @@ table.reportTable td {
   position: sticky;
   left: 0;
   background: white; /* Ensure it covers other cells when scrolled */
-  z-index: 1; /* Needed to layer properly */
+  z-index: 2; /* Needed to layer properly */
   border-right: 1px solid #CCCCCC;
 }
 
