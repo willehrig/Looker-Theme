@@ -70,10 +70,6 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #CCCCCC; 
   border-collapse: collapse;
-  position: sticky;
-  left: 0;
-  z-index: 2;
-  background-color: #053235;
  
 }
 
