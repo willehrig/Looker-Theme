@@ -74,6 +74,14 @@ table.reportTable td {
  
 }
 
+table.reportTable td.sticky-col {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+  border-right: 1px solid #CCCCCC;
+}
+
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
