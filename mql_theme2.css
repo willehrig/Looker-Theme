@@ -66,6 +66,21 @@ table.reportTable td {
   border-collapse: collapse;
 }
 
+/* Freeze first column */
+.reportTable td.sticky-col,
+.reportTable th.sticky-col {
+  position: sticky;
+  left: 0;
+  background: white; /* Ensure it covers other cells when scrolled */
+  z-index: 1; /* Needed to layer properly */
+  border-right: 1px solid #CCCCCC;
+}
+
+/* Optional: If header and first column intersect */
+.reportTable th.sticky-col {
+  z-index: 2; /* Make sure header cell is above regular cell */
+}
+
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
