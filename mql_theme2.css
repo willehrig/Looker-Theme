@@ -127,36 +127,32 @@ table.reportTable td {
   margin: 4px;
 }
 
-.reportTable tr:first-child td {
-  background-color: #48bdff;
-  text-align: middle;
-}
-.reportTable tr:nth-child(6) td {
+.reportTable tr:nth-child(5) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(11) td {
+.reportTable tr:nth-child(10) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(16) td {
+.reportTable tr:nth-child(15) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(21) td {
+.reportTable tr:nth-child(20) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(26) td {
+.reportTable tr:nth-child(25) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(31) td {
+.reportTable tr:nth-child(30) td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(36) td {
+.reportTable tr:nth-child(35) td {
   background-color: #48bdff; 
 }
-.reportTable tr:nth-child(41) td {
+.reportTable tr:nth-child(40) td {
   background-color: #48bdff; 
 }
 
-.reportTable tr:nth-child(46) td {
+.reportTable tr:nth-child(45) td {
   background-color: #48bdff; 
 }
