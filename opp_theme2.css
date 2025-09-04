@@ -55,8 +55,8 @@ table.reportTable th {
   border: 1px solid #CCCCCC; 
   border-bottom: 1px solid #CCCCCC !important;
   padding: 5px;
-  background: #053235;
-  color: #FFFFFF;
+  background: #6BDACD;
+  color: #171717;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -148,7 +148,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(9) td {
-  background-color: #48bdff;
+  background-color: #7AA4E3;
   
 }
 
@@ -157,7 +157,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(18) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(22) td {
@@ -165,7 +165,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(27) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(31) td {
@@ -177,7 +177,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(36) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(40) td {
@@ -189,7 +189,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(45) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(49) td {
@@ -201,7 +201,7 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(54) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(58) td {
@@ -213,15 +213,15 @@ table.reportTable td {
 }
 
 .reportTable tr:nth-child(63) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(72) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 .reportTable tr:nth-child(81) td {
-  background-color: #48bdff; 
+  background-color: #7AA4E3; 
 }
 
 
