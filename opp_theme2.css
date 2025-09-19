@@ -138,7 +138,7 @@ table.reportTable td {
 }
 
 
-.reportTable tr:nth-child(21) td {
+.reportTable tr:nth-child(20) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -147,7 +147,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(9) td {
+.reportTable tr:nth-child(11) td {
   background-color: #7AA4E3;
   
 }
@@ -156,7 +156,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(18) td {
+.reportTable tr:nth-child(22) td {
   background-color: #7AA4E3; 
 }
 
