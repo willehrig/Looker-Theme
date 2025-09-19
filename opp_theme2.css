@@ -200,15 +200,15 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(54) td {
+.reportTable tr:nth-child(66) td {
   background-color: #7AA4E3; 
 }
 
-.reportTable tr:nth-child(58) td {
+.reportTable tr:nth-child(71) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(62) td {
+.reportTable tr:nth-child(76) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -225,7 +225,7 @@ table.reportTable td {
 }
 
 
-.reportTable tr:nth-child(83) td {
+.reportTable tr:nth-child(82) td {
   border-bottom: 1px solid #000000; 
 }
 
