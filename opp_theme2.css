@@ -138,7 +138,7 @@ table.reportTable td {
 }
 
 
-.reportTable tr:nth-child(20) td {
+.reportTable tr:nth-child(21) td {
   border-bottom: 1px solid #000000; 
 }
 
@@ -152,7 +152,7 @@ table.reportTable td {
   
 }
 
-.reportTable tr:nth-child(17) td {
+.reportTable tr:nth-child(16) td {
   border-bottom: 1px solid #000000; 
 }
 
