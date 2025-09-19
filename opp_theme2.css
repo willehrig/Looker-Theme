@@ -192,11 +192,11 @@ table.reportTable td {
   background-color: #7AA4E3; 
 }
 
-.reportTable tr:nth-child(49) td {
+.reportTable tr:nth-child(65) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(53) td {
+.reportTable tr:nth-child(68) td {
   border-bottom: 1px solid #000000; 
 }
 
