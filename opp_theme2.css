@@ -168,15 +168,15 @@ table.reportTable td {
   background-color: #7AA4E3; 
 }
 
-.reportTable tr:nth-child(31) td {
+.reportTable tr:nth-child(38) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(35) td {
+.reportTable tr:nth-child(43) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(36) td {
+.reportTable tr:nth-child(44) td {
   background-color: #7AA4E3; 
 }
 
