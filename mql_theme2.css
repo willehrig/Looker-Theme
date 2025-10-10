@@ -156,3 +156,7 @@ table.reportTable td {
 .reportTable tr:nth-child(54) td {
   background-color: #7AA4E3; 
 }
+
+.reportTable tr:nth-child(60) td {
+  background-color: #7AA4E3; 
+}
