@@ -240,3 +240,19 @@ table.reportTable td {
 .reportTable tr:nth-child(98) td {
   border-bottom: 1px solid #000000; 
 }
+
+.reportTable tr:nth-child(110) td {
+  background-color: #7AA4E3; 
+}
+
+.reportTable tr:nth-child(103) td {
+  border-bottom: 1px solid #000000; 
+}
+
+.reportTable tr:nth-child(108) td {
+  border-bottom: 1px solid #000000; 
+}
+.reportTable tr:nth-child(110) td {
+  background-color: #7AA4E3; 
+}
+
