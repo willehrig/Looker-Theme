@@ -128,10 +128,6 @@ table.reportTable td {
 }
 
 
-.reportTable tr:nth-child(3) td {
-  border-bottom: 1px solid #000000; 
-}
-
 .reportTable tr:nth-child(3) {
   position: relative;           /* so ::after is positioned against this row */
 }
