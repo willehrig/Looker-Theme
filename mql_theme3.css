@@ -131,6 +131,10 @@ table.reportTable td {
   background-color: #7AA4E3; 
 }
 
+.reportTable tr:nth-child(3) td {
+  border-bottom: 1px solid #000000; 
+}
+
 .reportTable tr:nth-child(4) td {
   background-color: #7AA4E3; 
 }
