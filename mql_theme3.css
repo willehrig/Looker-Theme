@@ -130,7 +130,16 @@ table.reportTable td {
 .reportTable tr:nth-child(1) td {
   background-color: #7AA4E3; 
 }
+
+.reportTable tr:nth-child(4) td {
+  background-color: #7AA4E3; 
+}
+
 .reportTable tr:nth-child(7) td {
+  background-color: #7AA4E3; 
+}
+
+.reportTable tr:nth-child(10) td {
   background-color: #7AA4E3; 
 }
 .reportTable tr:nth-child(13) td {
@@ -146,12 +155,25 @@ table.reportTable td {
   background-color: #7AA4E3; 
 }
 
+.reportTable tr:nth-child(34) td {
+  background-color: #7AA4E3; 
+}
+
 .reportTable tr:nth-child(37) td {
+  background-color: #7AA4E3; 
+}
+
+.reportTable tr:nth-child(40) td {
   background-color: #7AA4E3; 
 }
 .reportTable tr:nth-child(43) td {
   background-color: #7AA4E3; 
 }
+
+.reportTable tr:nth-child(46) td {
+  background-color: #7AA4E3; 
+}
+
 
 .reportTable tr:nth-child(49) td {
   background-color: #7AA4E3; 
