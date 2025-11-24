@@ -132,5 +132,21 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
+.reportTable tr:nth-child(3) {
+  position: relative;           /* so ::after is positioned against this row */
+}
+
+.reportTable tr:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  left: 0;                      /* start at the very left of the table */
+  right: 0;                     /* extend all the way to the right */
+  bottom: -1px;                 /* align with the cell borders */
+  height: 1px;
+  background: #000;
+  pointer-events: none;
+  z-index: 1;
+}
+
 
 
