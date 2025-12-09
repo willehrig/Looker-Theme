@@ -129,14 +129,22 @@ table.reportTable td {
 }
 
 
-.reportTable tr:nth-child(5) td {
+.reportTable tr:nth-child(3) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(10) td {
+.reportTable tr:nth-child(6) td {
   border-bottom: 1px solid #000000; 
 }
 
+.reportTable tr:nth-child(7) td {
+  background-color: #7AA4E3;
+  
+}
+
+.reportTable tr:nth-child(16) td {
+  border-bottom: 1px solid #000000; 
+}
 
 .reportTable tr:nth-child(21) td {
   border-bottom: 1px solid #000000; 
@@ -147,14 +155,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(11) td {
-  background-color: #7AA4E3;
-  
-}
 
-.reportTable tr:nth-child(16) td {
-  border-bottom: 1px solid #000000; 
-}
 
 .reportTable tr:nth-child(22) td {
   background-color: #7AA4E3; 
@@ -192,11 +193,13 @@ table.reportTable td {
   background-color: #7AA4E3; 
 }
 
-.reportTable tr:nth-child(65) td {
+
+
+.reportTable tr:nth-child(60) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(60) td {
+.reportTable tr:nth-child(65) td {
   border-bottom: 1px solid #000000; 
 }
 
