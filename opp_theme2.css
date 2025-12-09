@@ -133,21 +133,19 @@ table.reportTable td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(6) td {
-  border-bottom: 1px solid #000000; 
-}
 
 .reportTable tr:nth-child(7) td {
   background-color: #7AA4E3;
   
 }
 
-.reportTable tr:nth-child(16) td {
+.reportTable tr:nth-child(10) td {
   border-bottom: 1px solid #000000; 
 }
 
-.reportTable tr:nth-child(21) td {
-  border-bottom: 1px solid #000000; 
+.reportTable tr:nth-child(14) td {
+  background-color: #7AA4E3;
+  
 }
 
 
