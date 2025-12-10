@@ -185,30 +185,4 @@ table.reportTable td {
   z-index: 1;
 }
 
-/* Keep the table from shrinking too much on small screens */
-.reportTable {
-  min-width: 1200px;   /* tweak this number to taste */
-}
 
-/* Optional: slightly smaller text & padding on narrower screens */
-@media (max-width: 1200px) {
-  .reportTable {
-    font-size: 11px;
-  }
-
-  .reportTable th,
-  .reportTable td {
-    padding: 3px;
-  }
-}
-
-@media (max-width: 800px) {
-  .reportTable {
-    font-size: 10px;
-  }
-
-  .reportTable th,
-  .reportTable td {
-    padding: 2px;
-  }
-}
