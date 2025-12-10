@@ -185,30 +185,20 @@ table.reportTable td {
   z-index: 1;
 }
 
-/* Make wide tables scroll horizontally instead of shrinking */
+/* Keep the table from shrinking too much on small screens */
 .reportTable {
-  display: block;        /* allows overflow on the table element */
-  overflow-x: auto;
-  overflow-y: visible;
-  white-space: nowrap;   /* keep cells from wrapping onto multiple lines */
+  min-width: 1200px;   /* tweak this number to taste */
 }
 
-/* Make header row stay full-width when table scrolls */
-.reportTable thead,
-.reportTable tbody,
-.reportTable tr {
-  width: max-content;
-}
-
-/* Responsive tweaks for smaller screens */
+/* Optional: slightly smaller text & padding on narrower screens */
 @media (max-width: 1200px) {
   .reportTable {
-    font-size: 11px;   /* slightly smaller text */
+    font-size: 11px;
   }
-  
+
   .reportTable th,
   .reportTable td {
-    padding: 3px;      /* tighter cells so more columns fit */
+    padding: 3px;
   }
 }
 
