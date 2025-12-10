@@ -134,34 +134,40 @@ table.reportTable td {
    - row 10 in the block → "EE % to Goal"
    ------------------------------------------------------------------ */
 
-/* 1) FULL-WIDTH divider after each EE % to Goal row (10th row of block) */
-.reportTable tr:nth-child(9n) {
-  position: relative;
-}
-
-.reportTable tr:nth-child(9n)::after {
-  content: "";
-  position: absolute;
-  left: 0;          /* span entire table width */
-  right: 0;
-  bottom: -1px;
-  height: 2px;
-  background: #000;
-  pointer-events: none;
-  z-index: 1;
-}
 
 /* 2) PARTIAL dividers for "Opp % to Goal" rows (4th row of block) */
 .reportTable tr:nth-child(9n + 3) td {
   position: relative;
 }
 
+.reportTable tr:nth-child(9n + 3) td::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;        /* underline stays inside each cell */
+  bottom: -1px;
+  height: 1px;
+  background: #000;
+  pointer-events: none;
+  z-index: 1;
+}
 
 /* 3) PARTIAL dividers for "Pipeline % to Goal" rows (7th row of block) */
 .reportTable tr:nth-child(9n + 6) td {
   position: relative;
 }
 
+.reportTable tr:nth-child(9n + 6) td::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: #000;
+  pointer-events: none;
+  z-index: 1;
+}
 
 /* Prevent wrapping in ALL label cells (Opp Count, Opp Goal, % to Goal, Pipeline, etc.) */
 .reportTable td:first-of-type {
