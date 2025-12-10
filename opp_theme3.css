@@ -184,3 +184,8 @@ table.reportTable td {
   pointer-events: none;
   z-index: 1;
 }
+
+/* Prevent wrapping in ALL label cells (Opp Count, Opp Goal, % to Goal, Pipeline, etc.) */
+.reportTable td:first-of-type {
+  white-space: nowrap;
+}
