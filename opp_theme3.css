@@ -151,16 +151,16 @@ table.reportTable td {
   z-index: 1;
 }
 
-/* 2) PARTIAL dividers (cell-only) for "Opp % to Goal" rows (4th row of block) */
-.reportTable tr:nth-child(9n + 3) td:not(:first-child) {
+/* 2) PARTIAL dividers for "Opp % to Goal" rows (4th row of block) */
+.reportTable tr:nth-child(9n + 3) td {
   position: relative;
 }
 
-.reportTable tr:nth-child(9n + 3) td:not(:first-child)::after {
+.reportTable tr:nth-child(9n + 3) td::after {
   content: "";
   position: absolute;
   left: 0;
-  right: 0;        /* underline stays inside each (non-first) cell */
+  right: 0;        /* underline stays inside each cell */
   bottom: -1px;
   height: 1px;
   background: #000;
@@ -168,27 +168,19 @@ table.reportTable td {
   z-index: 1;
 }
 
-/* 3) PARTIAL dividers (cell-only) for "Pipeline % to Goal" rows (7th row of block) */
-.reportTable tr:nth-child(9n + 6) td:not(:first-child) {
+/* 3) PARTIAL dividers for "Pipeline % to Goal" rows (7th row of block) */
+.reportTable tr:nth-child(9n + 6) td {
   position: relative;
 }
 
-.reportTable tr:nth-child(9n + 6) td:not(:first-child)::after {
+.reportTable tr:nth-child(9n + 6) td::after {
   content: "";
   position: absolute;
   left: 0;
-  right: 0;        /* underline stays inside each (non-first) cell */
+  right: 0;
   bottom: -1px;
   height: 1px;
   background: #000;
   pointer-events: none;
   z-index: 1;
-}
-
-/* Keep first-column labels on a single line */
-.reportTable tr > th:first-child,
-.reportTable tr > td:first-child {
-  white-space: nowrap;      /* don't wrap */
-  overflow: hidden;         /* don't spill out of the cell box */
-  text-overflow: ellipsis;  /* optional: show … if it gets too tight */
 }
