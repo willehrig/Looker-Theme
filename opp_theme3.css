@@ -152,15 +152,15 @@ table.reportTable td {
 }
 
 /* 2) PARTIAL dividers (cell-only) for "Opp % to Goal" rows (4th row of block) */
-.reportTable tr:nth-child(9n + 3) td {
+.reportTable tr:nth-child(9n + 3) td:not(:first-child) {
   position: relative;
 }
 
-.reportTable tr:nth-child(9n + 3) td::after {
+.reportTable tr:nth-child(9n + 3) td:not(:first-child)::after {
   content: "";
   position: absolute;
   left: 0;
-  right: 0;        /* underline stays inside each cell */
+  right: 0;        /* underline stays inside each (non-first) cell */
   bottom: -1px;
   height: 1px;
   background: #000;
@@ -169,15 +169,15 @@ table.reportTable td {
 }
 
 /* 3) PARTIAL dividers (cell-only) for "Pipeline % to Goal" rows (7th row of block) */
-.reportTable tr:nth-child(9n + 6) td {
+.reportTable tr:nth-child(9n + 6) td:not(:first-child) {
   position: relative;
 }
 
-.reportTable tr:nth-child(9n + 6) td::after {
+.reportTable tr:nth-child(9n + 6) td:not(:first-child)::after {
   content: "";
   position: absolute;
   left: 0;
-  right: 0;        /* underline stays inside each cell */
+  right: 0;        /* underline stays inside each (non-first) cell */
   bottom: -1px;
   height: 1px;
   background: #000;
