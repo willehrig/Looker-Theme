@@ -152,11 +152,11 @@ table.reportTable td {
 }
 
 /* 2) PARTIAL dividers (cell-only) for "Opp % to Goal" rows (4th row of block) */
-.reportTable tr:nth-child(10n + 4) td {
+.reportTable tr:nth-child(10n + 3) td {
   position: relative;
 }
 
-.reportTable tr:nth-child(10n + 4) td::after {
+.reportTable tr:nth-child(10n + 3) td::after {
   content: "";
   position: absolute;
   left: 0;
@@ -169,11 +169,11 @@ table.reportTable td {
 }
 
 /* 3) PARTIAL dividers (cell-only) for "Pipeline % to Goal" rows (7th row of block) */
-.reportTable tr:nth-child(10n + 7) td {
+.reportTable tr:nth-child(10n + 6) td {
   position: relative;
 }
 
-.reportTable tr:nth-child(10n + 7) td::after {
+.reportTable tr:nth-child(10n + 6) td::after {
   content: "";
   position: absolute;
   left: 0;
