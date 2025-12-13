@@ -189,3 +189,36 @@ table.reportTable td {
 .reportTable td:first-of-type {
   white-space: nowrap;
 }
+
+
+/* --- Freeze first two columns --- */
+
+/* Make sure the table can extend wider than the viewport */
+.reportTable {
+  min-width: max-content;
+}
+
+/* 1st column: frozen on the left */
+.reportTable th:nth-child(1),
+.reportTable td:nth-child(1) {
+  position: sticky;
+  left: 0;                 /* sticks to the left edge when scrolling */
+  z-index: 4;              /* above normal cells */
+  background: #ffffff;     /* match your row background */
+  min-width: 180px;        /* adjust to whatever width you want */
+}
+
+/* 2nd column: frozen next to the first */
+.reportTable th:nth-child(2),
+.reportTable td:nth-child(2) {
+  position: sticky;
+  left: 180px;             /* must match the width of column 1 */
+  z-index: 4;
+  background: #ffffff;
+}
+
+/* Keep header cells for frozen columns above everything */
+.reportTable thead th:nth-child(1),
+.reportTable thead th:nth-child(2) {
+  z-index: 5;
+}
