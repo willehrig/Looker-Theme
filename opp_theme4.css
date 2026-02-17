@@ -14,8 +14,6 @@
 
 #tooltip {
   position: absolute;
-  width: auto;
-  height: auto;
   padding: 5px;
   background-color: white;
   border-radius: 4px;
@@ -28,38 +26,55 @@
 
 .tooltipTable {
   font-family: Open Sans, Helvetica, Arial, sans-serif;
-  border: 0px;
   border-collapse: collapse;
-  table-layout: auto;
 }
 
 /* -------------------------
-   GENERAL HELPERS
+   MAIN REPORT TABLE
 -------------------------- */
 
-.focus {
-  font-weight: bold;
+.reportTable {
+  font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC, sans-serif;
+  border: 1px solid #CCCCCC;
+  border-collapse: collapse;
 }
 
-.hidden {
-  display: none;
+/* -------------------------
+   HEADER (NO BLACK BARS)
+-------------------------- */
+
+.reportTable thead th {
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  background: #6BDACD;
+  color: #171717;
+  z-index: 3;
 }
 
-.hover {
-  background-color: #ffffbb;
+/* -------------------------
+   TABLE CELLS
+-------------------------- */
+
+.reportTable td {
+  vertical-align: super;
+  padding: 5px;
+  border: 1px solid #CCCCCC;
 }
 
-.negative {
-  color: red;
+/* Prevent wrapping in first column */
+.reportTable td:first-of-type {
+  white-space: nowrap;
 }
 
-.estimate {
-  color: darkgray !important;
-}
+/* Alignment helpers */
+.nonNumeric { text-align: left; }
+.numeric { text-align: right; }
 
-.subtotal {
-  font-weight: bold;
-}
+.negative { color: red; }
+.estimate { color: darkgray !important; }
+.subtotal { font-weight: bold; }
 
 .total {
   border-top: 2px solid #000000 !important;
@@ -71,85 +86,10 @@
 }
 
 /* -------------------------
-   MAIN REPORT TABLE
+   FULL-WIDTH THICK DIVIDER
+   After every 3 data rows
 -------------------------- */
 
-.reportTable {
-  font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC, sans-serif;
-  border: 1px solid #CCCCCC;
-  border-collapse: collapse;
-  border-spacing: 3px;
-}
-
-/* Sticky header */
-.reportTable th {
-  border: 1px solid #CCCCCC;
-  padding: 5px;
-  position: sticky;
-  top: 0;
-  background: #6BDACD;
-  color: #171717;
-  z-index: 3;
-}
-
-/* Table cells */
-.reportTable td {
-  vertical-align: super;
-  padding: 5px;
-  border: 1px solid #CCCCCC;
-}
-
-/* Prevent wrapping in first column (labels) */
-.reportTable td:first-of-type {
-  white-space: nowrap;
-}
-
-/* Alignment helpers */
-.nonNumeric {
-  text-align: left;
-}
-
-.numeric {
-  text-align: right;
-}
-
-.singleIndex {
-  padding-left: 15px !important;
-}
-
-.headerCell {
-  border-bottom: 1px solid #000000 !important;
-  font-weight: bold;
-  padding: 5px;
-}
-
-.indexCell.transposed {
-  font-weight: bold;
-}
-
-.indexCell.transposed.merged {
-  background-color: #ffffff !important;
-}
-
-.rowCell {
-  vertical-align: super;
-  padding-left: 5px;
-}
-
-.rectElem.animated {
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
-  margin: 4px;
-}
-
-/* ---------------------------------------------------
-   THICK DIVIDER AFTER EVERY 3 ROWS (Lead Channel)
-   Creates divider between:
-   Direct
-   Inbound Email
-   Organic Bing
-   etc.
----------------------------------------------------- */
-
-.reportTable tbody tr:nth-child(3n) td {
-  border-bottom: 2px solid #000 !important;
+.reportTable tbody tr:nth-child(3n) {
+  border-bottom: 3px solid #000;
 }
