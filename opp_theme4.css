@@ -91,5 +91,21 @@
 -------------------------- */
 
 .reportTable tbody tr:nth-child(3n) {
-  border-bottom: 3px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+/* ---------------------------------
+   Bold Channel Names (Column 1)
+---------------------------------- */
+
+.reportTable tbody td:first-child {
+  font-weight: bold;
+}
+
+/* ---------------------------------
+   Bold Metric Labels (Column 2)
+---------------------------------- */
+
+.reportTable tbody td:nth-child(2) {
+  font-weight: bold;
 }
